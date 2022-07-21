@@ -1,0 +1,32 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+.table.car {
+    vertical-align: middle;
+}
+.table.car > :not(:first-child) {
+    border-top: none;
+}
+.table.car thead {
+    background: rgb(238, 238, 238);
+}
+.table.car .btn,
+.car.list .btn-success {
+    font-size: 0.8em;
+}
+
+.buttons {
+    display: flex;
+    
+}
+
+.buttons-form {
+    padding-left: 10px;
+    
+}
